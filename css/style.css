@@ -1,3 +1,141 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+.container {
+    max-width: 1920px;
+}
+
+/* header */
+
+header .contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 0 20px 0;
+}
+header .contacts p {
+    margin-left: 358px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 17px;
+}
+header .contacts a {
+    color: #1a1a1a;
+}
+header .feedback {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    line-height: 20px;
+}
+header .feedback img {
+    margin-left: 50px;
+}
+header .language a:first-child,
+header .contacts .call {
+    color: #0670eb;
+}
+header .language a:first-child,
+header .language {
+    letter-spacing: 0.05em;
+}
+header .language {
+    margin-right: 100px;
+}
+header .language a:last-child {
+    color: #808080;
+    border-left: 1px solid #808080;
+    padding-left: 5px;
+}
+nav {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: flex;
+    gap: 50px;
+}
+.nav_logo {
+    padding-left: 100px;
+}
+nav a {
+    color: #fff;
+    padding: 21px 0;
+}
+nav a:last-child {
+    padding-right: 140px;
+    padding-left: 194px;
+}
+nav .nav {
+    background-color: #00a6e4;
+}
+nav a:first-child {
+    background-color: #016a91;
+    padding: 21px 40px;
+}
+nav .img-catalog {
+    margin-left: 20px;
+}
+nav .img-cart {
+    margin-right: 15px;
+    width: 29px;
+    height: 24px;
+}
+nav > a:not(:last-child):not(:first-child) {
+    margin-right: 10px;
+}
+nav .nav a:nth-child(2) {
+    margin-left: -20px;
+}
+
+/* promo */
+
+section.main .container {
+    background-image: url(../img/AtLine_poster.png);
+    text-transform: uppercase;
+    height: 674px;
+}
+section.main h1 {
+    font-family: "Gotham Pro";
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+section.main h2 {
+    font-family: "Gotham Pro";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 38px;
+    color: #016a90;
+    margin-bottom: 5px;
+}
+section.main p {
+    text-transform: none;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+section.main a {
+    color: #fff;
+    padding: 25px 0 27px 80px;
+    background-color: #00a6e4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    width: 432.58px;
+    height: 74px;
+}
+section.main .promo {
+    display: flex;
+    flex-direction: column;
+    max-width: 592px;
+    margin-left: 200px;
+    padding-top: 72px;
+}
+section.main .img-vector {
+    width: 35px;
+    height: 13px;
+    margin-left: 20px;
+}
