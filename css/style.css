@@ -88,12 +88,19 @@ nav .nav a:nth-child(2) {
     margin-left: -20px;
 }
 
-/* promo */
+/* main */
 
 section.main .container {
     background-image: url(../img/AtLine_poster.png);
     text-transform: uppercase;
     height: 674px;
+}
+section.main .promo {
+    display: flex;
+    flex-direction: column;
+    max-width: 592px;
+    margin-left: 200px;
+    padding-top: 72px;
 }
 section.main h1 {
     font-family: "Gotham Pro";
@@ -127,15 +134,65 @@ section.main a {
     width: 432.58px;
     height: 74px;
 }
-section.main .promo {
-    display: flex;
-    flex-direction: column;
-    max-width: 592px;
-    margin-left: 200px;
-    padding-top: 72px;
-}
 section.main .img-vector {
     width: 35px;
     height: 13px;
     margin-left: 20px;
 }
+
+/* main-info */
+
+section.main-info .container_2 {
+    width: 1330px;
+    height: 420px;
+    margin-left: 200px;
+}
+section.main-info .info {
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+}
+section.main-info .right {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.main-info h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: -32px;
+}
+section.main-info h3 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 57px;
+    color: #016a90;
+    margin-bottom: 10px;
+}
+section.main-info p.left {
+    font-size: 18px;
+    line-height: 160%;
+    margin: 0;
+    width: 448px;
+    height: 173px;
+    border-left: 2px solid;
+    padding-left: 30px;
+    margin-left: 190px;
+}
+section.main-info p.right {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 52px;
+}
+section.main-info .indicators {
+    width: 250px;
+}
+section.main-info .indicators:nth-child(2n + 2) {
+    margin-left: 70px;
+}
+
+/* products */
