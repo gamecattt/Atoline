@@ -572,9 +572,9 @@ section.equipment .right-text {
     top: -192px;
 }
 
-/* bunner*/
+/* banner*/
 
-section.bunner {
+section.banner .container {
     background-image: url(../img/poster_about_company.png);
     height: 400px;
     margin-bottom: 72px;
@@ -619,6 +619,7 @@ section.about .right {
 }
 
 /* quality */
+
 section.quality {
     margin-bottom: 74px;
 }
@@ -683,23 +684,14 @@ section.rus_record h2 {
     margin-bottom: 30px;
 }
 section.rus_record .border-text {
-    width: 500px;
+    width: 520px;
 }
 section.rus_record .border-text p {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 section.rus_record p {
     font-size: 18px;
     line-height: 160%;
-}
-section.rus_record div > img:first-child {
-    position: relative;
-    margin-top: -95px;
-}
-section.rus_record div > img:last-child {
-    position: relative;
-    margin-top: 40px;
-    margin-left: 95px;
 }
 section.rus_record a > img {
     margin-right: 20px;
@@ -735,11 +727,13 @@ section.staff h5 {
     margin-bottom: 0;
     font-size: 20px;
     line-height: 150%;
+    font-weight: 400;
 }
 section.staff h6 {
     font-size: 14px;
     line-height: 150%;
     opacity: 0.6;
+    font-weight: 400;
 }
 
 section.staff .contact {
@@ -747,7 +741,7 @@ section.staff .contact {
     padding: 28px;
     width: 300px;
     position: absolute;
-    left: 1032px;
+    right: 0;
     top: 16px;
 }
 section.staff h3 {
@@ -765,5 +759,161 @@ section.staff h4 {
 }
 section.staff .btn {
     padding: 20px 16px;
-    width: 100%;
+}
+
+/* dealer */
+
+section.dealer .container {
+    background-image: url(../img/img_dealer_1.jpg);
+    margin-bottom: 72px;
+}
+section.dealer h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+section.dealer p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.dealer .container div {
+    padding: 56px 200px;
+}
+
+/* terms */
+section.terms {
+    margin-bottom: 46px;
+}
+section.terms .info {
+    display: flex;
+    gap: 120px;
+}
+section.terms .indicator {
+    width: 250px;
+}
+section.terms h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+section.terms h3 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 57px;
+    color: #016a90;
+    margin-bottom: 10px;
+}
+section.terms .border-text {
+    margin-left: 190px;
+}
+
+/* benefits */
+
+section.benefits .container {
+    background: url(../img/img_dealer_2.png) no-repeat bottom;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    margin-bottom: 90px;
+}
+section.benefits .benefits_info {
+    margin-left: 190px;
+    width: 520px;
+}
+section.benefits .border-text {
+    margin-bottom: 54px;
+}
+section.benefits .border-text img {
+    margin-right: 20px;
+}
+section.benefits li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+section.benefits li:last-child {
+    margin-bottom: 0;
+}
+section.benefits ul {
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+section.benefits li::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/li.svg);
+    left: -31px;
+    top: 7px;
+}
+section.benefits h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+/* feedback */
+section.feedback .container {
+    display: flex;
+    gap: 270px;
+    padding-left: 100px;
+    margin-bottom: 80px;
+    position: relative;
+}
+section.feedback h2 {
+    margin-bottom: 30px;
+    position: relative;
+    left: -190px;
+}
+section.feedback .border-text {
+    margin-bottom: 40px;
+}
+section.feedback form {
+    width: 400px;
+}
+section.feedback input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 39px;
+}
+section.feedback form input:last-of-type {
+    margin-bottom: 30px;
+}
+section.feedback .box {
+    position: absolute;
+    width: 329px;
+    background-color: #fff;
+    border: 3px solid #016a90;
+    padding: 68px 40px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    top: 126px;
+    left: 578px;
+}
+section.feedback .box h4 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    margin-bottom: 0;
+}
+section.feedback .box h4:first-child {
+    margin-bottom: 8px;
+}
+section.feedback .box p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 0;
 }
