@@ -16,7 +16,7 @@ document.querySelector(".overlay").addEventListener("click", function (e) {
     document.querySelector(".pop-up").style.display = "none";
 });
 
-let catalog_btn = document.querySelector("header nav > a:first-child");
+let catalog_btn = document.querySelector("header .nav-container > a:first-child");
 catalog_btn.addEventListener("click", function (e) {
     e.preventDefault();
     if (catalog_btn.classList.contains("active")) {
@@ -24,4 +24,14 @@ catalog_btn.addEventListener("click", function (e) {
     } else {
         catalog_btn.classList.add("active");
     }
+});
+
+// slider
+const swiper = new Swiper("section.products .slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".products .slider-next",
+        prevEl: ".products .slider-prev",
+    },
 });
