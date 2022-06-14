@@ -1048,6 +1048,94 @@ section.guarantee .border-text {
     margin-left: 190px;
 }
 
+/* category_banner */
+
+section.category_banner .container {
+    background: url(../img/category_banner.png) no-repeat center;
+    margin-bottom: 80px;
+}
+section.category_banner .container div {
+    padding: 118px 200px;
+}
+section.category_banner h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+section.category_banner p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    margin: 0;
+}
+
+/* offer */
+
+section.offer {
+    margin-bottom: 40px;
+}
+section.offer h2 {
+    margin-bottom: 30px;
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+}
+section.offer .border-text {
+    margin-left: 278px;
+    max-width: 932px;
+}
+section.offer .border-text p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+/* objects */
+
+section.objects .container {
+    background-image: url(../img/products.png);
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+section.objects h2 {
+    margin-bottom: 40px;
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+}
+section.objects .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1330px;
+    margin-left: 200px;
+}
+section.objects .slider {
+    margin: 0 30px 40px 30px;
+    overflow: hidden;
+    position: relative;
+}
+section.objects .slider a {
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.2s;
+    background-repeat: no-repeat;
+}
+section.objects .slider a:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+}
+section.objects .slider .item {
+    width: 600px;
+    height: 450px;
+    padding: 0 30px 20px 30px;
+}
+
 @media (max-width: 1625px) {
     .container_2 {
         margin-left: 50px;
