@@ -59,6 +59,10 @@ input[type="text"]:focus {
     max-width: 1330px;
     margin-left: 200px;
 }
+.container_3 {
+    max-width: 1140px;
+    margin-left: 390px;
+}
 .img-responsive {
     max-width: 100%;
     display: block;
@@ -1134,6 +1138,168 @@ section.objects .slider .item {
     width: 600px;
     height: 450px;
     padding: 0 30px 20px 30px;
+}
+
+/* characteristics */
+section.characteristics {
+    margin-bottom: 80px;
+}
+section.characteristics h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+section.characteristics p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+section.characteristics .container_3 > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+section.characteristics .container_3 div div {
+    display: flex;
+    height: 60px;
+}
+section.characteristics .container_3 > div > div:nth-child(odd) {
+    background-color: rgba(230, 239, 248, 0.5);
+}
+section.characteristics .right {
+    padding: 20px;
+    border-left: 1px solid #e6eff8;
+}
+section.characteristics .left {
+    padding: 20px;
+    width: 350px;
+}
+
+/* product description */
+
+section.product_description .container_3 {
+    margin-left: 390px;
+    padding-top: 80px;
+    padding-bottom: 125px;
+}
+section.product_description h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 110%;
+    margin-bottom: 20px;
+}
+section.product_description p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+section.product_description .container {
+    background: url(../img/product_description_back.png) no-repeat;
+}
+section.product_description .product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* terms */
+
+section.terms h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+section.terms .content {
+    display: flex;
+    gap: 50px;
+}
+section.terms p:last-child {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+section.terms .box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+section.terms .box p:last-child {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #016a90;
+}
+section.terms .box p:first-child {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 60px;
+    color: #016a90;
+}
+/* objects in_card */
+
+section.in_card h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 110%;
+    padding-left: 190px;
+}
+section.in_card {
+    margin-bottom: 60px;
+}
+
+/* documentation */
+section.documentation .container {
+    margin-bottom: 80px;
+}
+section.documentation .container_3 > div {
+    max-width: 974px;
+}
+section.documentation h2 {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 110%;
+    margin-bottom: 20px;
+}
+section.documentation p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+section.documentation a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+}
+section.documentation .documents {
+    display: flex;
+    gap: 165px;
+    margin-top: 30px;
+}
+section.documentation .documents > div {
+    display: flex;
+    gap: 20px;
+}
+section.documentation p {
+    margin: 0;
+}
+section.documentation .download span {
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #80808d;
 }
 
 @media (max-width: 1625px) {
